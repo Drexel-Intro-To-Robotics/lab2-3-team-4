@@ -1,0 +1,187 @@
+[INFO] [1778825533.868675]: Professor-style A* ROS node started.
+[INFO] [1778825533.880135]: Waiting for /map, /initialpose, and /move_base_simple/goal.
+[INFO] [1778825533.890528]: Map received: width=384 height=384 resolution=0.050 frame=map
+[INFO] [1778825867.849161]: Start set from RViz 2D Pose Estimate: (202, 211)
+[WARN] [1778825867.859128]: No goal set yet. Use RViz 2D Nav Goal.
+[INFO] [1778825871.849458]: Goal set from RViz 2D Nav Goal: (229, 203)
+[INFO] [1778825871.859152]: Running A* from (202, 211) to (229, 203)
+[INFO] [1778825871.900553]: Expanded nodes: 204
+[INFO] [1778825871.913281]: Final cost: 35.000
+[INFO] [1778825871.923140]: Path length: 36
+[INFO] [1778825888.283767]: Goal set from RViz 2D Nav Goal: (250, 183)
+[INFO] [1778825888.292359]: Running A* from (202, 211) to (250, 183)
+[INFO] [1778825888.341821]: Expanded nodes: 1078
+[INFO] [1778825888.351340]: Final cost: 76.000
+[INFO] [1778825888.359848]: Path length: 77
+[INFO] [1778825893.473487]: Goal set from RViz 2D Nav Goal: (153, 193)
+[INFO] [1778825893.482813]: Running A* from (202, 211) to (153, 193)
+[INFO] [1778825893.516064]: Expanded nodes: 68
+[INFO] [1778825893.525201]: Final cost: 67.000
+[INFO] [1778825893.535877]: Path length: 68
+[INFO] [1778825899.386931]: Goal set from RViz 2D Nav Goal: (227, 239)
+[INFO] [1778825899.397570]: Running A* from (202, 211) to (227, 239)
+[INFO] [1778825899.448811]: Expanded nodes: 691
+[INFO] [1778825899.457690]: Final cost: 53.000
+[INFO] [1778825899.465077]: Path length: 54
+[INFO] [1778825931.258827]: Goal set from RViz 2D Nav Goal: (192, 148)
+[ERROR] [1778825931.268338]: Goal cell is occupied or unknown: (192, 148)
+[INFO] [1778825940.571987]: Goal set from RViz 2D Nav Goal: (230, 196)
+[INFO] [1778825940.582605]: Running A* from (202, 211) to (230, 196)
+[INFO] [1778825940.617522]: Expanded nodes: 402
+[INFO] [1778825940.626437]: Final cost: 43.000
+[INFO] [1778825940.634714]: Path length: 44
+[INFO] [1778825944.126495]: Goal set from RViz 2D Nav Goal: (277, 235)
+[ERROR] [1778825944.133990]: Goal cell is occupied or unknown: (277, 235)
+[INFO] [1778825949.757645]: Goal set from RViz 2D Nav Goal: (225, 247)
+[INFO] [1778825949.767920]: Running A* from (202, 211) to (225, 247)
+[INFO] [1778825949.805443]: Expanded nodes: 788
+[INFO] [1778825949.815341]: Final cost: 59.000
+[INFO] [1778825949.826054]: Path length: 60
+[INFO] [1778825955.678521]: Goal set from RViz 2D Nav Goal: (240, 204)
+[INFO] [1778825955.685347]: Running A* from (202, 211) to (240, 204)
+[INFO] [1778825955.724486]: Expanded nodes: 199
+[INFO] [1778825955.732908]: Final cost: 45.000
+[INFO] [1778825955.745656]: Path length: 46
+[INFO] [1778826047.709332]: Goal set from RViz 2D Nav Goal: (209, 194)
+[INFO] [1778826047.717081]: Running A* from (202, 211) to (209, 194)
+[INFO] [1778826047.750582]: Expanded nodes: 125
+[INFO] [1778826047.758919]: Final cost: 24.000
+[INFO] [1778826047.766961]: Path length: 25
+[INFO] [1778826052.194734]: Goal set from RViz 2D Nav Goal: (199, 248)
+[INFO] [1778826052.206589]: Running A* from (202, 211) to (199, 248)
+[INFO] [1778826052.239458]: Expanded nodes: 41
+[INFO] [1778826052.248303]: Final cost: 40.000
+[INFO] [1778826052.257324]: Path length: 41
+[INFO] [1778826056.476481]: Goal set from RViz 2D Nav Goal: (180, 206)
+[INFO] [1778826056.486507]: Running A* from (202, 211) to (180, 206)
+[INFO] [1778826056.518618]: Expanded nodes: 28
+[INFO] [1778826056.526944]: Final cost: 27.000
+[INFO] [1778826056.534744]: Path length: 28
+[INFO] [1778826065.183207]: Goal set from RViz 2D Nav Goal: (121, 236)
+[INFO] [1778826065.199303]: Running A* from (202, 211) to (121, 236)
+[INFO] [1778826065.237658]: Expanded nodes: 107
+[INFO] [1778826065.246677]: Final cost: 106.000
+[INFO] [1778826065.255562]: Path length: 107
+[INFO] [1778826082.147344]: Goal set from RViz 2D Nav Goal: (262, 131)
+[ERROR] [1778826082.155968]: Goal cell is occupied or unknown: (262, 131)
+[INFO] [1778826085.791783]: Goal set from RViz 2D Nav Goal: (154, 269)
+[INFO] [1778826085.803420]: Running A* from (202, 211) to (154, 269)
+[INFO] [1778826085.845145]: Expanded nodes: 107
+[INFO] [1778826085.853736]: Final cost: 106.000
+[INFO] [1778826085.863196]: Path length: 107
+[INFO] [1778826089.436207]: Goal set from RViz 2D Nav Goal: (288, 281)
+[ERROR] [1778826089.449707]: Goal cell is occupied or unknown: (288, 281)
+[INFO] [1778826092.674925]: Goal set from RViz 2D Nav Goal: (265, 198)
+[ERROR] [1778826092.686188]: Goal cell is occupied or unknown: (265, 198)
+[INFO] [1778826096.094322]: Goal set from RViz 2D Nav Goal: (228, 242)
+[INFO] [1778826096.106561]: Running A* from (202, 211) to (228, 242)
+[INFO] [1778826096.143370]: Expanded nodes: 785
+[INFO] [1778826096.152075]: Final cost: 57.000
+[INFO] [1778826096.160701]: Path length: 58
+[INFO] [1778826203.204813]: Goal set from RViz 2D Nav Goal: (254, 189)
+[ERROR] [1778826203.215130]: Goal cell is occupied or unknown: (254, 189)
+[INFO] [1778826207.563895]: Goal set from RViz 2D Nav Goal: (198, 196)
+[INFO] [1778826207.573430]: Running A* from (202, 211) to (198, 196)
+[INFO] [1778826207.601694]: Expanded nodes: 25
+[INFO] [1778826207.612316]: Final cost: 19.000
+[INFO] [1778826207.621668]: Path length: 20
+[INFO] [1778826211.527071]: Goal set from RViz 2D Nav Goal: (175, 204)
+[INFO] [1778826211.537874]: Running A* from (202, 211) to (175, 204)
+[INFO] [1778826211.578330]: Expanded nodes: 35
+[INFO] [1778826211.587607]: Final cost: 34.000
+[INFO] [1778826211.598478]: Path length: 35
+[INFO] [1778826215.307901]: Goal set from RViz 2D Nav Goal: (168, 195)
+[INFO] [1778826215.316624]: Running A* from (202, 211) to (168, 195)
+[INFO] [1778826215.365670]: Expanded nodes: 51
+[INFO] [1778826215.377810]: Final cost: 50.000
+[INFO] [1778826215.386673]: Path length: 51
+[INFO] [1778826229.795506]: Goal set from RViz 2D Nav Goal: (142, 219)
+[INFO] [1778826229.806961]: Running A* from (202, 211) to (142, 219)
+[INFO] [1778826229.851510]: Expanded nodes: 69
+[INFO] [1778826229.860556]: Final cost: 68.000
+[INFO] [1778826229.869328]: Path length: 69
+[INFO] [1778826242.785906]: Start set from RViz 2D Pose Estimate: (109, 206)
+[INFO] [1778826242.796638]: Running A* from (109, 206) to (142, 219)
+[INFO] [1778826242.841353]: Expanded nodes: 476
+[INFO] [1778826242.849345]: Final cost: 46.000
+[INFO] [1778826242.859643]: Path length: 47
+[INFO] [1778826246.947893]: Goal set from RViz 2D Nav Goal: (231, 233)
+[INFO] [1778826246.956673]: Running A* from (109, 206) to (231, 233)
+[INFO] [1778826246.999909]: Expanded nodes: 2920
+[INFO] [1778826247.011624]: Final cost: 149.000
+[INFO] [1778826247.020447]: Path length: 150
+[INFO] [1778826265.300746]: Start set from RViz 2D Pose Estimate: (108, 254)
+[INFO] [1778826265.311414]: Running A* from (108, 254) to (231, 233)
+[INFO] [1778826265.356498]: Expanded nodes: 2461
+[INFO] [1778826265.365378]: Final cost: 144.000
+[INFO] [1778826265.378952]: Path length: 145
+[INFO] [1778826268.890050]: Goal set from RViz 2D Nav Goal: (243, 196)
+[INFO] [1778826268.900046]: Running A* from (108, 254) to (243, 196)
+[INFO] [1778826268.966717]: Expanded nodes: 6768
+[INFO] [1778826268.978108]: Final cost: 193.000
+[INFO] [1778826268.986856]: Path length: 194
+[INFO] [1778826288.533246]: Start set from RViz 2D Pose Estimate: (271, 251)
+[ERROR] [1778826288.547305]: Start cell is occupied or unknown: (271, 251)
+[INFO] [1778826292.172853]: Start set from RViz 2D Pose Estimate: (281, 189)
+[ERROR] [1778826292.183793]: Start cell is occupied or unknown: (281, 189)
+[INFO] [1778826299.055074]: Start set from RViz 2D Pose Estimate: (244, 190)
+[INFO] [1778826299.066624]: Running A* from (244, 190) to (243, 196)
+[INFO] [1778826299.098910]: Expanded nodes: 1
+[WARN] [1778826299.108279]: No path found.
+[INFO] [1778826303.310150]: Start set from RViz 2D Pose Estimate: (264, 215)
+[ERROR] [1778826303.318640]: Start cell is occupied or unknown: (264, 215)
+[INFO] [1778826307.341604]: Start set from RViz 2D Pose Estimate: (222, 211)
+[INFO] [1778826307.352433]: Running A* from (222, 211) to (243, 196)
+[INFO] [1778826307.391041]: Expanded nodes: 274
+[INFO] [1778826307.399924]: Final cost: 42.000
+[INFO] [1778826307.410434]: Path length: 43
+[INFO] [1778826311.722428]: Goal set from RViz 2D Nav Goal: (114, 240)
+[INFO] [1778826311.732421]: Running A* from (222, 211) to (114, 240)
+[INFO] [1778826311.769775]: Expanded nodes: 138
+[INFO] [1778826311.780565]: Final cost: 137.000
+[INFO] [1778826311.790032]: Path length: 138
+[INFO] [1778826324.205061]: Start set from RViz 2D Pose Estimate: (264, 205)
+[ERROR] [1778826324.215952]: Start cell is occupied or unknown: (264, 205)
+[INFO] [1778826327.949484]: Start set from RViz 2D Pose Estimate: (245, 217)
+[ERROR] [1778826327.960607]: Start cell is occupied or unknown: (245, 217)
+[INFO] [1778826331.246008]: Start set from RViz 2D Pose Estimate: (227, 196)
+[INFO] [1778826331.256074]: Running A* from (227, 196) to (114, 240)
+[INFO] [1778826331.285169]: Expanded nodes: 163
+[INFO] [1778826331.294271]: Final cost: 157.000
+[INFO] [1778826331.304919]: Path length: 158
+[INFO] [1778826335.566298]: Goal set from RViz 2D Nav Goal: (119, 194)
+[INFO] [1778826335.579932]: Running A* from (227, 196) to (119, 194)
+[INFO] [1778826335.617654]: Expanded nodes: 234
+[INFO] [1778826335.628856]: Final cost: 112.000
+[INFO] [1778826335.645099]: Path length: 113
+[INFO] [1778826341.172146]: Goal set from RViz 2D Nav Goal: (134, 244)
+[INFO] [1778826341.182586]: Running A* from (227, 196) to (134, 244)
+[INFO] [1778826341.221077]: Expanded nodes: 292
+[INFO] [1778826341.230574]: Final cost: 141.000
+[INFO] [1778826341.246060]: Path length: 142
+[INFO] [1778826345.845059]: Goal set from RViz 2D Nav Goal: (162, 245)
+[INFO] [1778826345.854483]: Running A* from (227, 196) to (162, 245)
+[INFO] [1778826345.894527]: Expanded nodes: 308
+[INFO] [1778826345.901285]: Final cost: 114.000
+[INFO] [1778826345.913137]: Path length: 115
+[INFO] [1778826349.996178]: Goal set from RViz 2D Nav Goal: (114, 233)
+[INFO] [1778826350.005719]: Running A* from (227, 196) to (114, 233)
+[INFO] [1778826350.034890]: Expanded nodes: 156
+[INFO] [1778826350.048163]: Final cost: 150.000
+[INFO] [1778826350.058391]: Path length: 151
+[INFO] [1778826356.084468]: Start set from RViz 2D Pose Estimate: (251, 238)
+[ERROR] [1778826356.092947]: Start cell is occupied or unknown: (251, 238)
+[INFO] [1778826360.533902]: Start set from RViz 2D Pose Estimate: (250, 213)
+[ERROR] [1778826360.547140]: Start cell is occupied or unknown: (250, 213)
+[INFO] [1778826363.885767]: Start set from RViz 2D Pose Estimate: (233, 212)
+[ERROR] [1778826363.896286]: Start cell is occupied or unknown: (233, 212)
+[INFO] [1778826366.260704]: Start set from RViz 2D Pose Estimate: (213, 240)
+[INFO] [1778826366.272305]: Running A* from (213, 240) to (114, 233)
+[INFO] [1778826366.315277]: Expanded nodes: 107
+[INFO] [1778826366.324218]: Final cost: 106.000
+[INFO] [1778826366.334259]: Path length: 107
+[INFO] [1778826369.486699]: Goal set from RViz 2D Nav Goal: (147, 188)
+[INFO] [1778826369.497005]: Running A* from (213, 240) to (147, 188)
+[INFO] [1778826369.539935]: Expanded nodes: 119
+[INFO] [1778826369.548594]: Final cost: 118.000
+[INFO] [1778826369.558159]: Path length: 119
