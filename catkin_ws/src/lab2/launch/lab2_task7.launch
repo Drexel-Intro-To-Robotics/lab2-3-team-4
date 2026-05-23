@@ -1,0 +1,55 @@
+<launch>
+    <!--
+        Lab 2 Task 7 Launch File
+
+        This launch file brings up:
+        1. The saved map from Task 2
+        2. RViz using the saved Task 3/4/5 configuration
+        3. The A* planner node from Task 4/5
+        4. The path follower node from Task 6
+
+        NOTE:
+        This assumes roscore and turtlebot3_bringup are already running
+        on the physical TurtleBot3 robot.
+    -->
+
+    <!-- TurtleBot model -->
+    <arg name="model" default="waffle_pi" />
+
+    <!-- Saved map file -->
+    <arg name="map_file"
+         default="$(find lab2)/../../maps/task2_obstacle_map.yaml" />
+
+    <!-- Saved RViz configuration -->
+    <arg name="rviz_config"
+         default="$(find lab2)/rviz/task3_lab2_config.rviz" />
+
+    <!-- Set TurtleBot3 model parameter -->
+    <param name="model" value="$(arg model)" />
+
+    <!-- Load the saved map as /map -->
+    <node pkg="map_server"
+          type="map_server"
+          name="map_server"
+          args="$(arg map_file)"
+          output="screen" />
+
+    <!-- Start the A* planner node -->
+    <node pkg="lab2"
+          type="astar_planner.py"
+          name="astar_planner_node"
+          output="screen" />
+
+    <!-- Start the path follower node -->
+    <node pkg="lab2"
+          type="path_follower.py"
+          name="path_follower_node"
+          output="screen" />
+
+    <!-- Open RViz with saved config -->
+    <node pkg="rviz"
+          type="rviz"
+          name="rviz"
+          args="-d $(arg rviz_config)"
+          output="screen" />
+</launch>
