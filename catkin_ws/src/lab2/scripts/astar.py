@@ -240,6 +240,7 @@ class AStarPlannerNode(object):
         return valid
 
     def is_free(self, cell):
+        """
         x, y = cell
         idx = self.grid_to_index(x, y)
         value = self.map_msg.data[idx]
@@ -251,7 +252,42 @@ class AStarPlannerNode(object):
             return False
 
         return True
+        """
+        def is_free(self, cell):
+            x, y = cell
 
+            # Safety buffer around obstacles, in meters
+            buffer_meters = rospy.get_param("~obstacle_buffer", 0.20)
+
+            # Convert meters to grid cells
+            buffer_cells = int(math.ceil(buffer_meters / self.resolution))
+
+            # Check this cell and nearby cells
+            for dy in range(-buffer_cells, buffer_cells + 1):
+                for dx in range(-buffer_cells, buffer_cells + 1):
+                    nx = x + dx
+                    ny = y + dy
+
+                    # If buffer area goes outside map, treat it as unsafe
+                    if nx < 0 or nx >= self.width:
+                        return False
+
+                    if ny < 0 or ny >= self.height:
+                        return False
+
+                    idx = self.grid_to_index(nx, ny)
+                    value = self.map_msg.data[idx]
+
+                    # Unknown cells
+                    if value == -1 and not self.allow_unknown:
+                        return False
+
+                    # Occupied cells
+                    if value >= self.occupied_threshold:
+                        return False
+
+            return True
+        
     def compute_unexplored(self, max_cells=4000):
         """
         For RViz display only.
