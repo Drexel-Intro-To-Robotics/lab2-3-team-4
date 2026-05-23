@@ -1,0 +1,7 @@
+digraph G {
+"newton/odom" -> "newton/base_footprint"[label="Broadcaster: /turtlebot3_core\nAverage rate: 23.990 Hz\nMost recent transform: 1779498515.577 ( 1.753 sec old)\nBuffer length: 3.251 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1779498517.330"[ shape=plaintext ] ;
+ }->"newton/odom";
+}
