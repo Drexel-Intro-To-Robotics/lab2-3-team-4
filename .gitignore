@@ -51,3 +51,16 @@ qtcreator-*
 CATKIN_IGNOREcatkin_ws/bags/*.bag
 catkin_ws/bags/**/*.bag
 catkin_ws/bags/*.bag
+
+
+*.bag
+
+*.bag
+
+# Large generated files
+*.bag
+*.bag.active
+*.webm
+catkin_ws/src/lab2/data/csv/*/map.csv
+catkin_ws/src/lab2/data/csv/*/map_metadata.csv
+catkin_ws/src/lab2/old_attempts/

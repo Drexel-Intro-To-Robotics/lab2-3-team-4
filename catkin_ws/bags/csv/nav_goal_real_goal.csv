@@ -1,3 +1,0 @@
-%time,field.header.seq,field.header.stamp,field.header.frame_id,field.pose.position.x,field.pose.position.y,field.pose.position.z,field.pose.orientation.x,field.pose.orientation.y,field.pose.orientation.z,field.pose.orientation.w
-1778819015224276581,7,1778819015223851712,odom,0.2170419692993164,0.061768531799316406,0.0,0.0,0.0,0.18820640927680438,0.9821294963023623
-1778819053780758739,8,1778819053780511033,odom,-0.13156914710998535,-0.0009298324584960938,0.0,0.0,0.0,0.9950284160185725,0.09959142189752394
