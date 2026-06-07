@@ -1,0 +1,37 @@
+[0m[ INFO] [1780802056.305552706]: Loading robot model 'turtlebot3_manipulation'...[0m
+[0m[ INFO] [1780802057.061244319]: Using position only ik[0m
+[0m[ INFO] [1780802058.713370246]: Ready to take commands for planning group arm.[0m
+[INFO] Returning to home position.
+[0m[ INFO] [1780802058.828281937]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt could not confirm the home motion.
+
+============================================================
+Point A: Forward Center
+Target Cartesian pose [x, y, z, pitch]: [0.32, 0.0, 0.18, -0.5]
+Calculated joints [th1, th2, th3, th4]: [0.0, 0.7849, -0.3196, -0.9653]
+
+Inspect the arm and clear the workspace. Press ENTER to execute this motion, or press Ctrl+C to stop: [INFO] Executing planned movement.
+[0m[ INFO] [1780802060.963793384]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt did not confirm successful completion.
+Press ENTER to return the arm to home: [INFO] Returning to home position.
+[0m[ INFO] [1780802067.020783876]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt could not confirm the home motion.
+
+============================================================
+Point B: Forward Left
+Target Cartesian pose [x, y, z, pitch]: [0.32, 0.1, 0.22, -0.2]
+Calculated joints [th1, th2, th3, th4]: [0.3029, 0.6915, -0.119, -0.7725]
+
+Inspect the arm and clear the workspace. Press ENTER to execute this motion, or press Ctrl+C to stop: [INFO] Executing planned movement.
+[0m[ INFO] [1780802070.411383417]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt did not confirm successful completion.
+Press ENTER to return the arm to home: [INFO] Returning to home position.
+[0m[ INFO] [1780802072.518141104]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt could not confirm the home motion.
+
+============================================================
+Point C: Forward Right
+Target Cartesian pose [x, y, z, pitch]: [0.32, -0.1, 0.22, -0.2]
+Calculated joints [th1, th2, th3, th4]: [-0.3029, 0.6915, -0.119, -0.7725]
+
+Inspect the arm and clear the workspace. Press ENTER to execute this motion, or press Ctrl+C to stop: 

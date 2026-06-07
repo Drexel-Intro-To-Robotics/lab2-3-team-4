@@ -1,0 +1,14 @@
+[0m[ INFO] [1780804647.180537221]: Loading robot model 'turtlebot3_manipulation'...[0m
+[0m[ INFO] [1780804647.930255898]: Using position only ik[0m
+[0m[ INFO] [1780804649.707688445]: Ready to take commands for planning group arm.[0m
+
+============================================================
+Point A: Forward Center
+Target Cartesian pose [x, y, z, pitch]: [0.32, 0.0, 0.18, -0.5]
+Calculated joints [th1, th2, th3, th4]: [0.0, 0.7849, -0.3196, -0.9653]
+
+Inspect the arm and clear the workspace. Press ENTER to execute this motion, or press Ctrl+C to stop: [INFO] Executing planned movement.
+[0m[ INFO] [1780804651.654657173]: ABORTED: CONTROL_FAILED[0m
+[WARN] MoveIt did not confirm successful completion.
+
+[INFO] Task 2 motion sequence finished.

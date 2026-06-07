@@ -1,0 +1,31 @@
+--- FK Validation for Task 2 ---
+
+Point 1 (+Y Max Safe)
+Target Pose [x, y, z, pitch]:
+[0.0, 0.25, 0.15, 0.0]
+Input Joints [th1, th2, th3, th4]:
+[1.5708, 1.4318, -2.0838, 0.652]
+FK Result [x, y, z, pitch]:
+[-0.0, 0.25, 0.15, -0.0]
+Position Error [m]:
+0.0
+
+Point 2 (Close Up)
+Target Pose [x, y, z, pitch]:
+[0.0, 0.2, 0.2, 0.0]
+Input Joints [th1, th2, th3, th4]:
+[1.5708, 2.021, -2.1303, 0.1093]
+FK Result [x, y, z, pitch]:
+[-0.0, 0.2, 0.2, -0.0]
+Position Error [m]:
+0.0
+
+Point 3 (Diagonal)
+Target Pose [x, y, z, pitch]:
+[-0.1, 0.1, 0.2, 0.0]
+Input Joints [th1, th2, th3, th4]:
+[2.3562, 2.5891, -2.2998, -0.2892]
+FK Result [x, y, z, pitch]:
+[-0.1, 0.1, 0.2, 0.0001]
+Position Error [m]:
+0.0

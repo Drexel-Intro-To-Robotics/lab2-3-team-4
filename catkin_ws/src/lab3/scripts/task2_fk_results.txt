@@ -1,0 +1,4 @@
+--- FK Validation Check ---
+Input Joints: [1.5708, -0.6698, -0.2185, 0.8883]
+Resulting FK Pose [x, y, z, pitch]: [-0.0, 0.3137, -0.0808, 0.0]
+Verification: If [0.0, 0.2, 0.2, 0.0] -> Math is rock solid.

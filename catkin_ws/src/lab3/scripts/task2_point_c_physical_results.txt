@@ -1,0 +1,13 @@
+[0m[ INFO] [1780804369.335798076]: Loading robot model 'turtlebot3_manipulation'...[0m
+[0m[ INFO] [1780804370.015831467]: Using position only ik[0m
+[0m[ INFO] [1780804371.644959675]: Ready to take commands for planning group arm.[0m
+
+============================================================
+Point C: Forward Right
+Target Cartesian pose [x, y, z, pitch]: [0.32, -0.1, 0.22, -0.2]
+Calculated joints [th1, th2, th3, th4]: [-0.3029, 0.6915, -0.119, -0.7725]
+
+Inspect the arm and clear the workspace. Press ENTER to execute this motion, or press Ctrl+C to stop: [INFO] Executing planned movement.
+[INFO] Motion completed successfully.
+
+[INFO] Task 2 motion sequence finished.
