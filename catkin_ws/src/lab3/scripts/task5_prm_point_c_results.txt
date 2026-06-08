@@ -1,0 +1,32 @@
+
+======================================================================
+Task 5 Joint-Space Motion-Planning Trial
+======================================================================
+Goal:             Point C: Forward Right
+Planner:          PRMkConfigDefault
+Target joints:    [-0.3029, 0.6915, -0.119, -0.7725]
+Planning time:    0.015756 s
+Trajectory points: 71
+
+Inspect the RViz plan and clear the workspace. Press ENTER to execute, or press Ctrl+C to stop: [INFO] Executing trajectory.
+[INFO] Motion completed successfully.
+
+Measured final joint positions:
+joint1 = -0.001534
+joint2 = -1.520175
+joint3 = 1.216447
+joint4 = 0.575243
+
+Final joint errors:
+joint1 error = 0.301366 rad
+joint2 error = -2.211675 rad
+joint3 error = 1.335447 rad
+joint4 error = 1.347743 rad
+
+Measured final end-effector position:
+x = 0.033087
+y = -0.000173
+z = 0.209740
+[0m[ INFO] [1780961414.645713320]: Loading robot model 'turtlebot3_manipulation'...[0m
+[0m[ INFO] [1780961415.313845731]: Using position only ik[0m
+[0m[ INFO] [1780961417.151964862]: Ready to take commands for planning group arm.[0m
