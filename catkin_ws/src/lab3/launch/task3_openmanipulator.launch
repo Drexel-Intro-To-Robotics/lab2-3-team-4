@@ -3,7 +3,14 @@
         ME571 Lab 3 Task 3
         Start the OpenManipulator controller bridge, MoveIt, and RViz.
     -->
+    <param name="/move_group/trajectory_execution/allowed_execution_duration_scaling"
+           value="5.0" />
 
+    <param name="/move_group/trajectory_execution/allowed_goal_duration_margin"
+           value="3.0" />
+
+    <param name="/move_group/trajectory_execution/allowed_start_tolerance"
+           value="0.05" />
     <!--
         Provides ros_control-related hardware communication,
         joint-state feedback, and arm trajectory-controller action topics.

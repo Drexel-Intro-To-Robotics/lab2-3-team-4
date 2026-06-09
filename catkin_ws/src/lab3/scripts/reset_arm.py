@@ -1,44 +1,58 @@
 #!/usr/bin/env python3
 
+import json
+import os
 import sys
+
 import rospy
 import moveit_commander
 
 
 def main():
-    """
-    Return the OpenManipulator arm to the predefined MoveIt 'home' pose.
-    """
-
     moveit_commander.roscpp_initialize(sys.argv)
-    rospy.init_node("return_arm_home", anonymous=True)
 
-    group = moveit_commander.MoveGroupCommander("arm")
+    rospy.init_node(
+        "reset_arm_to_saved_home",
+        anonymous=True,
+    )
 
-    # Reduced speed for safety.
-    group.set_max_velocity_scaling_factor(0.10)
-    group.set_max_acceleration_scaling_factor(0.10)
+    script_folder = os.path.dirname(
+        os.path.abspath(__file__)
+    )
 
-    # Give MoveIt more time and more attempts.
-    group.set_planning_time(15.0)
-    group.set_num_planning_attempts(10)
+    home_file = os.path.join(
+        script_folder,
+        "saved_home.json",
+    )
 
-    # Start from the robot's actual current joint state.
-    group.set_start_state_to_current_state()
+    if not os.path.exists(home_file):
+        raise RuntimeError(
+            "saved_home.json does not exist. "
+            "Run save_current_home.py first."
+        )
 
-    rospy.loginfo("Planning motion to the predefined home pose.")
+    with open(home_file, "r", encoding="utf-8") as file:
+        home_pose = json.load(file)
 
-    group.set_named_target("home")
+    arm = moveit_commander.MoveGroupCommander("arm")
 
-    success = group.go(wait=True)
+    # Use reduced speed for safe physical testing.
+    arm.set_max_velocity_scaling_factor(0.10)
+    arm.set_max_acceleration_scaling_factor(0.10)
 
-    group.stop()
-    group.clear_pose_targets()
+    print("[INFO] Moving the arm to the saved lab home position:")
+    print(json.dumps(home_pose, indent=4))
+
+    arm.set_joint_value_target(home_pose)
+
+    success = arm.go(wait=True)
+
+    arm.stop()
 
     if success:
-        rospy.loginfo("Arm returned to the home position successfully.")
+        print("[INFO] Arm returned to the saved lab home position successfully.")
     else:
-        rospy.logwarn("Failed to return the arm to the home position.")
+        print("[ERROR] MoveIt could not return the arm to the saved home pose.")
 
     moveit_commander.roscpp_shutdown()
 

@@ -19,8 +19,8 @@ JOINT_LIMITS = [
 # Conservative Cartesian targets for an initial physical test.
 # Format: [x, y, z, pitch]
 TARGETS = [
-    ("Point A: Forward Center", [0.32,  0.00, 0.18, -0.50]),
-    ("Point B: Forward Left",   [0.32,  0.10, 0.22, -0.20]),
+    #("Point A: Forward Center", [0.32,  0.00, 0.18, -0.50]),
+    #("Point B: Forward Left",   [0.32,  0.10, 0.22, -0.20]),
     ("Point C: Forward Right",  [0.32, -0.10, 0.22, -0.20]),
 ]
 
@@ -81,7 +81,7 @@ def main():
     arm.set_max_acceleration_scaling_factor(0.10)
     arm.set_goal_joint_tolerance(0.01)
 
-    return_home(arm)
+    #return_home(arm)
 
     for name, target_pose in TARGETS:
         print("\n" + "=" * 60)
@@ -124,8 +124,8 @@ def main():
         else:
             print("[WARN] MoveIt did not confirm successful completion.")
 
-        input("Press ENTER to return the arm to home: ")
-        return_home(arm)
+        #input("Press ENTER to return the arm to home: ")
+        #return_home(arm)
 
     print("\n[INFO] Task 2 motion sequence finished.")
     moveit_commander.roscpp_shutdown()
