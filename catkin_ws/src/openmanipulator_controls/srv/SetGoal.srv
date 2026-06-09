@@ -1,0 +1,12 @@
+uint8 GOAL_TYPE_JOINT=1
+uint8 GOAL_TYPE_TASK=2
+uint8 GOAL_TYPE_WAYPOINTS=3
+
+uint8 goal_type
+float64[] joint_goals
+geometry_msgs/Pose task_goal
+geometry_msgs/Pose[] waypoints
+float64 duration
+---
+bool success
+string message
